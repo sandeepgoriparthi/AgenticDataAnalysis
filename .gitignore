@@ -1,0 +1,42 @@
+# Environment variables - NEVER COMMIT THESE
+.env
+.env.local
+.env.production
+*.env.txt
+*secret*
+*key*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Data files
+# data/*.csv
+# data/*.xlsx
+
+# Temporary files
+temp/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Application specific
+exports/
+*.pkl
+*.joblib
